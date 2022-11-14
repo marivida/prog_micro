@@ -6,11 +6,11 @@ function insertionSort(inputArr) {
   for (let i = 1; i < inputArr.length; i++) {
     console.log('Inicio inputArr => ' + inputArr)
 
-    let current = inputArr[i] //3
+    let current = inputArr[i] //
 
     console.log('i - inputArr[' + i + '] => ' + current)
 
-    let j = i - 1 //0
+    let j = i - 1 //
     while (j > -1 && current < inputArr[j]) {
       console.log('j - inputArr[' + j + '] => ' + inputArr[j])
       inputArr[j + 1] = inputArr[j]
